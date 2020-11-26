@@ -14,7 +14,7 @@ public class Spring1Application extends SpringBootServletInitializer{
 		SpringApplication.run(Spring1Application.class, args);
 	}
 	
-	//Cambio para commit nuevo x2
+	//Cambio para commit nuevo x3
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(Spring1Application.class);
