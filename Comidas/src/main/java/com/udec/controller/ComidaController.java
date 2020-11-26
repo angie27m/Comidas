@@ -29,7 +29,7 @@ import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
-//@PreAuthorize("hasAuthority('Invitado') OR hasAuthority('Admin')")
+@PreAuthorize("hasAuthority('Invitado') OR hasAuthority('Admin')")
 @Api(tags = "Comidas")
 @RestController
 @RequestMapping("/comidas")
